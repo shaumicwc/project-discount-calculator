@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Discount Calculator</title>
+</head>
+<body>
+    <header>
+        <h1 class="text-center font-bold text-5xl">Calculate <span class="text-red-400">30% </span> Discount</h1>
+    </header>
+    <section class="mt-10">
+        <div class="grid grid-cols-1 gap-4 mx-auto w-4/12">
+            <div class="bg-fuchsia-500 px-5 py-10 rounded-md">
+                <h1 class="text-3xl">Price:</h1>
+                <input type="number" placeholder="Enter Price" class="p-2 mt-3 rounded-md" id="price-input">
+                <button class="block mt-4 p-2 rounded-md text-white font-bold bg-lime-700" id="apply-btn">Apply</button>
+                <h1 class="text-center text-3xl">Pay: <span id="pay-output">00</span> </h1>
+            </div>
+        </div>
+    </section>
+    <script src="dom1.js"></script>
+</body>
+</html>
